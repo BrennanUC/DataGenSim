@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Education",
+  "Description": "Editor-only CropVolume mesh audit and capture; shares the working simulator content.",
+  "Plugins": [
+    {"Name": "PythonScriptPlugin", "Enabled": true},
+    {"Name": "EditorScriptingUtilities", "Enabled": true},
+    {"Name": "GeometryScripting", "Enabled": true}
+  ]
+}

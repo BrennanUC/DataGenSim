@@ -1,0 +1,5 @@
+# Install GPU-enabled PyTorch first, or reuse a configured training interpreter.
+# The launcher loads the pinned native-HIP source from third_party/gsplat-rocm.
+# For a separate existing GPU interpreter, use --no-deps in the CPU environment.
+pytorch-msssim==1.0.0
+ninja

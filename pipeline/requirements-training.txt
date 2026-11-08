@@ -1,0 +1,5 @@
+# Install a compatible GPU-enabled CUDA PyTorch build in the training environment first.
+# This adapter pins the gsplat parameter/optimizer API; NVIDIA execution is unvalidated here.
+gsplat==1.5.3
+pytorch-msssim==1.0.0
+ninja

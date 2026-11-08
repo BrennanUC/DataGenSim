@@ -1,0 +1,143 @@
+{
+  "assets": [
+    {
+      "approved": true,
+      "bounds_m": [
+        [
+          -0.15878702700138092,
+          -0.15743502974510193,
+          -0.0009713910985738039
+        ],
+        [
+          0.1511257141828537,
+          0.15643084049224854,
+          0.37397992610931396
+        ]
+      ],
+      "geometry_version": "solid-shell-v1-7733b1a822274a2609aa8210f8e2eddbf81a125604ecee2a19c6509a41d8ad77",
+      "id": "BasilClump_v0_solid_v2",
+      "mesh": "solids/BasilClump_v0_solid_v2.ply",
+      "mesh_sha256": "ccbd3d2d5cfcf1cecb541ce42a2437e8d84e373994f45445b3e36c1f3d05cb2b",
+      "method": "manifold-solid-union-v1",
+      "solid_recipe": {
+        "expected_volume_m3": 0.00018816918800548807,
+        "geometry_id": "7733b1a822274a2609aa8210f8e2eddbf81a125604ecee2a19c6509a41d8ad77",
+        "id": "BasilClump_v0_solid_v2",
+        "leaf_thickness_m": 0.0003,
+        "species": "basil",
+        "unreal_asset": "/Game/CropVolume/Plants/BasilClump_v0_solid_v2"
+      },
+      "source_sha256": "5ca3f83d9d4a8b91291e646039a98c5cd5091900c8128bd1e375c92739b8ef0f",
+      "species": "basil",
+      "test_fixture": false,
+      "unreal_asset": "/Game/CropVolume/Plants/BasilClump_v0_solid_v2",
+      "unreal_uasset_sha256": "ce78e27f375d8cf67913bd56a3cc1417da95ab1e486ccb6111b79d68e79bfeb8",
+      "volume_m3": 0.00018816916959360353
+    },
+    {
+      "approved": true,
+      "bounds_m": [
+        [
+          -0.13189393281936646,
+          -0.12279807031154633,
+          -0.000804019917268306
+        ],
+        [
+          0.13931500911712646,
+          0.14997735619544983,
+          0.3790179491043091
+        ]
+      ],
+      "geometry_version": "solid-shell-v1-82aad2f408a6d8d426937ed6f1a3da9c450ba5b378d88f8bb24c779a4ce4db6b",
+      "id": "BasilClump_v1_solid_v2",
+      "mesh": "solids/BasilClump_v1_solid_v2.ply",
+      "mesh_sha256": "6f2e0917809cb5764c90f5994c36a0fcefd6e31b0341ac186a9cb2a163beefdf",
+      "method": "manifold-solid-union-v1",
+      "solid_recipe": {
+        "expected_volume_m3": 0.00016568644168253672,
+        "geometry_id": "82aad2f408a6d8d426937ed6f1a3da9c450ba5b378d88f8bb24c779a4ce4db6b",
+        "id": "BasilClump_v1_solid_v2",
+        "leaf_thickness_m": 0.0003,
+        "species": "basil",
+        "unreal_asset": "/Game/CropVolume/Plants/BasilClump_v1_solid_v2"
+      },
+      "source_sha256": "a40cf7c1805c00a6575db51a57e0cc419e950d4c219c95f1072a2a04dd297a7c",
+      "species": "basil",
+      "test_fixture": false,
+      "unreal_asset": "/Game/CropVolume/Plants/BasilClump_v1_solid_v2",
+      "unreal_uasset_sha256": "7a44d143f4718007d0647b6c35fdb2b22e0ea17f23daab65413a02a5967a2d6e",
+      "volume_m3": 0.0001656864237622633
+    },
+    {
+      "approved": true,
+      "bounds_m": [
+        [
+          -0.1258525252342224,
+          -0.13212014734745026,
+          -0.0008990776259452105
+        ],
+        [
+          0.15933866798877716,
+          0.15950994193553925,
+          0.3658409118652344
+        ]
+      ],
+      "geometry_version": "solid-shell-v1-b4977ce0c93c75c78ad4a46789723cd261cba3a6bdd7f271293aa340dd691417",
+      "id": "BasilClump_v2_solid_v2",
+      "mesh": "solids/BasilClump_v2_solid_v2.ply",
+      "mesh_sha256": "2ec396ec22784e2b998adbe307c5295695c2dec33d6ed6765ded97524074a88a",
+      "method": "manifold-solid-union-v1",
+      "solid_recipe": {
+        "expected_volume_m3": 0.0001875958092533887,
+        "geometry_id": "b4977ce0c93c75c78ad4a46789723cd261cba3a6bdd7f271293aa340dd691417",
+        "id": "BasilClump_v2_solid_v2",
+        "leaf_thickness_m": 0.0003,
+        "species": "basil",
+        "unreal_asset": "/Game/CropVolume/Plants/BasilClump_v2_solid_v2"
+      },
+      "source_sha256": "7bef763a122a9b922f9c402c2540f66c7affa3d7d7c50933ec7946bce4344aef",
+      "species": "basil",
+      "test_fixture": false,
+      "unreal_asset": "/Game/CropVolume/Plants/BasilClump_v2_solid_v2",
+      "unreal_uasset_sha256": "c4b89fb90367995941f5a7c1362c9fb1ec675ada6b990c0e35fe7b6f98e64168",
+      "volume_m3": 0.00018759581337295228
+    },
+    {
+      "approved": true,
+      "bounds_m": [
+        [
+          -0.15964114665985107,
+          -0.14788471162319183,
+          -0.0008843190153129399
+        ],
+        [
+          0.14069120585918427,
+          0.14085359871387482,
+          0.35921135544776917
+        ]
+      ],
+      "geometry_version": "solid-shell-v1-6452f2a6ae9eef1eb5a33c67b73a208d4c74d0812fc91513dafbed00a2eb6168",
+      "id": "BasilClump_v3_solid_v2",
+      "mesh": "solids/BasilClump_v3_solid_v2.ply",
+      "mesh_sha256": "20af48f6225e58e7ff4b6d8a13765d2a20b988cf7522b6f54b2adcdd504103ad",
+      "method": "manifold-solid-union-v1",
+      "solid_recipe": {
+        "expected_volume_m3": 0.0001715271330517787,
+        "geometry_id": "6452f2a6ae9eef1eb5a33c67b73a208d4c74d0812fc91513dafbed00a2eb6168",
+        "id": "BasilClump_v3_solid_v2",
+        "leaf_thickness_m": 0.0003,
+        "species": "basil",
+        "unreal_asset": "/Game/CropVolume/Plants/BasilClump_v3_solid_v2"
+      },
+      "source_sha256": "51eba9b01b606bb20f5537f355038799d3d4f9dec84fcd9714770b7b224e8a56",
+      "species": "basil",
+      "test_fixture": false,
+      "unreal_asset": "/Game/CropVolume/Plants/BasilClump_v3_solid_v2",
+      "unreal_uasset_sha256": "e7a018fa5758366d2e611b7886443f1d1c817646bfeaebf9f794fb9fe90b6753",
+      "volume_m3": 0.00017152706371045457
+    }
+  ],
+  "catalog_id": "a8510e9ef2864aad509878ddab17e4598b646cbd862a3d2859ece714bcf7f467",
+  "rejected": [],
+  "schema": "cropvolume-catalog-v1"
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cropvolume"
+version = "0.2.0"
+description = "Calibrated synthetic plant scenes paired with solid-volume labels"
+requires-python = ">=3.11,<3.13"
+dependencies = ["numpy==1.26.4", "scipy==1.15.3", "pillow==11.3.0", "trimesh==4.10.0", "manifold3d==3.2.1", "plyfile==1.1.3"]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2"]
+colmap = ["pycolmap==4.2.0"]
+
+[project.scripts]
+cropvolume = "cropvolume.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+cropvolume = ["profiles/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

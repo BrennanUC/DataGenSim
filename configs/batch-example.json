@@ -1,0 +1,72 @@
+{
+  "budget_bytes": 800000000000,
+  "capture": {
+    "camera_height_m": 3.0,
+    "height": 768,
+    "target_height_m": 0.15,
+    "views": 64,
+    "width": 1024
+  },
+  "preparation": {
+    "max_points": 30000,
+    "max_width": 1024
+  },
+  "publication": {
+    "quality_policy": "record_only"
+  },
+  "reconstruction_recipe": "rgb_known_pose",
+  "reserve_bytes": 5000000000,
+  "scene": {
+    "anisotropic": false,
+    "capture_validation": "structural_only",
+    "field": {
+      "appearance_policy": "authored_map_lighting_materials_postprocess",
+      "backend": "unreal_basesim_editor",
+      "bed_top_m": 0.08,
+      "center_enu_m": [
+        50.0,
+        0.0
+      ],
+      "context_policy": "bounded_field_black_exterior_v1",
+      "replace_meshes": [
+        "/Game/FlightSchool/Basil/BasilClump_v0.BasilClump_v0",
+        "/Game/FlightSchool/Basil/BasilClump_v1.BasilClump_v1",
+        "/Game/FlightSchool/Basil/BasilClump_v2.BasilClump_v2",
+        "/Game/FlightSchool/Basil/BasilClump_v3.BasilClump_v3",
+        "/Game/FlightSchool/Basil/BasilClumpContext.BasilClumpContext"
+      ],
+      "row_layout": "authored_basesim_anchors_v1",
+      "source_map": "/Game/FlightSchool/Maps/BasilField"
+    },
+    "geometry_augmentation": "transform_only",
+    "layout": "rows",
+    "min_center_spacing_m": 0.08,
+    "patch_m": [
+      2.0,
+      2.0
+    ],
+    "plant_count": [
+      25,
+      28
+    ],
+    "population_policy": {
+      "area_m2": 4.0,
+      "maximum_plants": 10000,
+      "method": "authored-row-capacity-v1",
+      "occupancy_fraction": [
+        0.9,
+        1.0
+      ]
+    },
+    "scale": [
+      0.8,
+      1.2
+    ],
+    "species": "basil"
+  },
+  "training": {
+    "init_points": 30000,
+    "max_gaussians": 100000,
+    "steps": 4000
+  }
+}

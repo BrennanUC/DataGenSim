@@ -1,0 +1,5 @@
+* text=auto
+*.uasset binary
+*.umap binary
+*.ply binary
+*.npz binary

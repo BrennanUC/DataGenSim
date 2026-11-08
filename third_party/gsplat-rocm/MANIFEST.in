@@ -1,0 +1,12 @@
+include config.yaml
+
+recursive-include gsplat/hip/csrc *
+recursive-include gsplat/hip/include *
+include gsplat/hip/ext.cpp
+
+# HIP / JIT sources for the sub-packages, so that source distributions can
+# JIT-build them. test_data and tests are intentionally not shipped.
+recursive-include gsplat/geometry/kernels/hip *
+recursive-include gsplat/sensors/kernels/hip *
+recursive-include gsplat/scene/kernels/hip *
+recursive-include gsplat/experimental/render/kernels/hip *

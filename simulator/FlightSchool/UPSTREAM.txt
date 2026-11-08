@@ -1,0 +1,1 @@
+Trimmed from the supplied CROPSIM Flight School project. This editor-only bundle contains the basil field dependency closure and audited solid plant packages. No game module or C++ build is required. See assets/provenance.json and THIRD_PARTY.md.

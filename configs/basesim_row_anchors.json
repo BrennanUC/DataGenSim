@@ -1,0 +1,10 @@
+{
+  "anchors": 67504,
+  "inventory_id": "a86f6c95b24adac99594441105d401ce442bddf2ef5347bd033d5c1dd8c3b810",
+  "maximum_clump_horizontal_radius_m": 0.23,
+  "npz_sha256": "8fa58274bdb8ac3899f7347892b1ccdea956dd9b06632b5684215e2ba8af79c3",
+  "schema": "cropvolume-basesim-row-anchors-v1",
+  "source_instances_sha256": "970c9d88e81a25f279a134ed39318ca3e8b2c50014812017f7e080882712107a",
+  "source_map": "/Game/FlightSchool/Maps/BasilField",
+  "source_map_sha256": "3e76586a91ec1fbd5d1a54b8af430b1364df0ea68782ca110eb8a05ac805f69b"
+}

@@ -1,0 +1,17 @@
+{
+  "gsplat_version": "1.6.0",
+  "source_repository": "https://github.com/HPC-Ken/gsplat",
+  "source_commit": "2a907639c1777c68f48c4a792232714d8e8cb854",
+  "torch_version": "2.9.1+rocm7.2.0.git7e1940d4",
+  "gpu_architecture": "gfx1100",
+  "python_files_sha256": {
+    "__init__.py": "53ce040447a698b96d8f1a68ed9bd8cbe0e3e6bd80cd6ff296e2b925e01c6336",
+    "rendering.py": "5e92c4b11e7aef8fa2ade16a011456e55dcd6a32c33f97f7f214dfd5f3ccee7f",
+    "strategy/default.py": "871c9434e24fc5d8693282953372648fa8bb58bfe5c29c2d989555ffbf8b6077",
+    "strategy/ops.py": "52e5180f41ab9079babb7c4030a77264a7f5bf707bba038d721902be365b3d21",
+    "hip/_backend.py": "a0d6a57562d9fbc30448ccb90fd6b3c8009526d32c90c6ee7ab0f3fe55aa9e70",
+    "hip/build.py": "04c2544a1364ee38c671be98ea64e358b9ae178823d344a7a0c95fcd1e33556f"
+  },
+  "compatibility_launcher": "tools/run_rocm.py",
+  "verification_report": "docs/VALIDATION.md"
+}

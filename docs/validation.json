@@ -1,0 +1,52 @@
+{
+  "browser": {
+    "desktop_passed": true,
+    "javascript_errors": 0,
+    "mobile_passed": true
+  },
+  "bundled_catalog_only": true,
+  "capture": {
+    "all_plant_transforms_verified": true,
+    "engine": "5.8.4-58902052+++UE5+Release-5.8",
+    "exterior": "black",
+    "frames": 24,
+    "image_size": [
+      512,
+      384
+    ],
+    "maximum_plant_transform_error": 1.264191675787174e-07
+  },
+  "custom_output_folder_via_dashboard": true,
+  "fresh_unreal_runtime": true,
+  "gpu": {
+    "backend": "rocm",
+    "forward_backward_passed": true,
+    "training_helpers_verified": true
+  },
+  "local_hosting_only": {
+    "bind_address": "127.0.0.1",
+    "published_or_deployed": false,
+    "remote_host_option": false
+  },
+  "original_base_directories_absent": true,
+  "output_selection_and_run_visible_after_restart": true,
+  "published_pair": {
+    "checksums": {
+      "label_sha256": "d7c38978f211e0c7202f499011a17d6ebd2aa30842f8b739b7b22a736ff4d3f7",
+      "metadata_sha256": "afafe8b99f310d63ee80da65ea670307cd35b31be8d6ebcd00b8042d2b27014f",
+      "splat_sha256": "13bbbae3441186719ccb97f964d0f85e2e3338b0b0323d7feb218dc71e7efa6b"
+    },
+    "gaussian_limit": 512,
+    "gaussians": 512,
+    "plants": 10,
+    "quality_policy": "record_only",
+    "training_steps": 100,
+    "volume_m3": 0.0006778637581948212
+  },
+  "relocated_source_release": true,
+  "schema": "cropvolume-portability-validation-v1",
+  "tests": {
+    "passed": 168,
+    "skipped": 0
+  }
+}

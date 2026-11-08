@@ -1,0 +1,26 @@
+.deps/
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+artifacts/
+.coverage
+simulator/FlightSchool/Binaries/
+simulator/FlightSchool/Intermediate/
+simulator/FlightSchool/Saved/
+simulator/FlightSchool/DerivedDataCache/
+reports
+# Machine configuration and generated outputs
+cropvolume.local.json
+.env
+.cache/
+data/
+dist/
+*.tar.gz
+*.zip
+# Unreal generated directories, at any runtime/source location
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/

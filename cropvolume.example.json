@@ -1,0 +1,7 @@
+{
+  "output_root": "./data",
+  "runtime_root": "C:/CropVolumeRuntime",
+  "engine_root": "C:/Program Files/Epic Games/UE_5.8",
+  "training_python": ".venv/bin/python",
+  "backend": "rocm"
+}

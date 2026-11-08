@@ -1,0 +1,64 @@
+{
+  "schema": "cropsim-flight-school-field-v1",
+  "id": "basil",
+  "title": "Basil field",
+  "summary": "Mature basil on 40 in raised beds, laid out from the September 2026 survey of the western field. Closed hedges, paired furrows, real field around it.",
+  "min_m": [
+    -24.384,
+    0.0
+  ],
+  "max_m": [
+    24.384,
+    100.0
+  ],
+  "home_m": [
+    -4.0,
+    -6.5
+  ],
+  "canopy_top_m": 0.42,
+  "bed_top_m": 0.09,
+  "bed_spacing_m": 1.016,
+  "bed_count": 48,
+  "target_gsd_cm_px": 1.0,
+  "cut_depth_m": 0.254,
+  "synthetic_yield_kg_m2": 0.685,
+  "yield_source": "One reported harvest: 82,760 lb from 13.54 acres, top 10 in cut (6,112 lb/acre). Labels are synthetic.",
+  "plant_count": 79571,
+  "ground_truth_file": "basil-plants.jsonl",
+  "label_notice": "Synthetic labels: the reported aggregate per area is distributed over clumps by height. Not field measurements.",
+  "layout_source": "experiments/2026-10-16_E_flight-school/basil-spec/basil-field-spec.json",
+  "parameters": {
+    "beds": 48,
+    "length": 100.0,
+    "spacing": 1.016,
+    "bed_top": 0.09,
+    "canopy_top": 0.42,
+    "lines": [
+      -0.22,
+      0.0,
+      0.22
+    ],
+    "step": 0.17,
+    "gap_rate_per_m": 0.054,
+    "gap_median": 0.4,
+    "gap_sigma": 0.768,
+    "pair_shift": 0.045,
+    "context_beds": 14,
+    "context_north": 30.0,
+    "seed": 20260926,
+    "home": [
+      -4.0,
+      -6.5
+    ],
+    "sun_az": 243.0,
+    "sun_el": 28.0,
+    "bearing": 7.8,
+    "p0_en": [
+      154.0,
+      -192.0
+    ]
+  },
+  "gap_metres": 132.86868374859978,
+  "synthetic_removed_mass_kg": 3340.608,
+  "far_field": "Original-photo RGB mosaic of the western field, 2026-09-26 (before harvest) and 2026-09-27 (after)."
+}
